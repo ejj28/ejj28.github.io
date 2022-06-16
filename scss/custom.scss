@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html, 
+body {
+    height: 100%;
+}
+  #main-container {
+    height: 100%;
+  }
+  
+  #buttonBox {
+	  margin-top: 15px;
+  }
+
+.btn {
+  border: 5px outset rgb(231, 231, 231);
+  border-radius: 0%;
+  font-weight: bold;
+  color: #505050;
+  background-color: lightgray;
+}
+
+.btn-outline-primary:hover{
+  border-color: #2e93ff;
+}
